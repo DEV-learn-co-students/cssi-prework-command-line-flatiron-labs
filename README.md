@@ -67,8 +67,10 @@ If you think you might want some practice, you can follow the code-along below t
 
 
 #Tips and tricks:
-If you start typing a directory name or file name you can click `Tab` and the command line will automatically fill in the rest of the directory/file name. If you click `Tab` twice it will show you all of the directories/files inside your current directory.
-Navigating your computer from the command line is a lot about muscle memory. The more practice you have the faster you will get!
++ If you start typing a directory name or file name, you can press `Tab` and the command line will automatically fill in the rest of the directory/file name. 
++ If you press `Tab` twice it will show you all of the directories/files inside your current directory.
++ Use the up arrow to access commands you've written before. This will save a lot of time!
++ Navigating your computer from the command line is a lot about muscle memory. The more practice you have the faster you will get!
 
 #Conclusion
 As we learn to build complicated applications, being able to swiftly navigate your computer using the command line will make your life much easier. The command line will be important not just for navigation, but you'll also use it to do things like boot the local server for your web apps, write scripts to automate tasks, and execute other important functions on your computer.
