@@ -33,11 +33,7 @@ Our Command Line prompt, and maybe yours if you configured your environment thro
 
 The first line, `[16:19:43] ~` is telling us the current time, so expect that part to be different for you, and our current working directory, `~`, which means our Home directory, the default directory for you. We'll explain that idea of a home directory or `~` in a moment.
 
-The next line, `// ♥` is our command line prompt, where we can type instructions and commands for our computer to execute. `// ♥` is a customized prompt that you got by setting up your environment through Learn. To us the symbols `// ♥` remind us of the way, '//', of love, '♥'. That's our mantra when we're programming. And we think it looks pretty cool given how much time we spend in our Terminal.
-
-More generally, the command line prompt is represented by a `$`.
-
-If you've read other tutorials, you might be familiar with seeing command line instructions with a `$` to represent the prompt. We try to follow this convention in our instructions but you might sometimes see `// ♥` in images or code samples.
+The next line, `// $` is our command line prompt, where we can type instructions and commands for our computer to execute. 
 
 What can you do from a command line prompt? Everything and anything. A command line prompt is the most powerful interface in the world, from which every computer and piece of software can be created, controlled, molded, manipulated, and used.
 
