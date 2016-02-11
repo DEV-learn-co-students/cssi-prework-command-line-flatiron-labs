@@ -28,12 +28,12 @@ Our Command Line prompt, and maybe yours if you configured your environment thro
 
 ```
 [16:19:43] ~
-// ♥
+// $
 ```
 
 The first line, `[16:19:43] ~` is telling us the current time, so expect that part to be different for you, and our current working directory, `~`, which means our Home directory, the default directory for you. We'll explain that idea of a home directory or `~` in a moment.
 
-The next line, `// $` is our command line prompt, where we can type instructions and commands for our computer to execute. 
+The next line, `// $` is our command line prompt, where we can type instructions and commands for our computer to execute.
 
 What can you do from a command line prompt? Everything and anything. A command line prompt is the most powerful interface in the world, from which every computer and piece of software can be created, controlled, molded, manipulated, and used.
 
