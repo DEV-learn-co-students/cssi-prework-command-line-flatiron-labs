@@ -4,13 +4,6 @@
 * `Terminal` : A text-based tool that allows you to communicate with your computer. The user types a line of text into a simple prompt, and the computer runs that command. On OS X your terminal is an application appropriately called Terminal.
 * `Graphical User Interface` : A graphical display that allows you to communicate with your computer through icons and other visual elements like pointers, folders
 
-
-##Opening and Docking the Terminal
-
-You will be using the Terminal to access and edit files, move between directories (folders) and complete your labs. Follow the two steps below to open and dock the terminal.
-+  Opening- On a Mac, access Spotlight Search by clicking the magnifying glass in the upper right navigation bar or by pressing Command + Space. Then search for terminal and press Enter.
-+  Docking - Once the terminal is open, find it's icon in the dock. Right click on the icon, click Options and then Keep in Dock. Now you can access it from the Dock whenever you need it.
-
 ## Terminal Overview
 
 When you open a file on your computer, you locate it in by navigating through the directories on your computer's file system using Finder. Even files on your Desktop that you click on are stored in your computer's file system, your hard drive.
