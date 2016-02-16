@@ -1,8 +1,15 @@
 
-# The Command Line Terminal
+# Using the Command Line
+
 ##Key Terms
 * `Terminal` : A text-based tool that allows you to communicate with your computer. The user types a line of text into a simple prompt, and the computer runs that command. On OS X your terminal is an application appropriately called Terminal.
 * `Graphical User Interface` : A graphical display that allows you to communicate with your computer through icons and other visual elements like pointers, folders
+
+## Video
+
+Watch the video below if you are unfamiliar with the command line. It will walk you through the basic commands that you will use day to day as you learn to code.
+
+<iframe width="640" height="480" src="//www.youtube.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Terminal Overview
 
