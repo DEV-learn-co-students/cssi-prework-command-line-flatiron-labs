@@ -127,7 +127,9 @@ You can also change directory back to your home directory from anywhere via `cd 
 
 When you're in Terminal, sometimes it is useful to open the current directory you're in, your working directory, in Finder. You can do this with `open .`. That will pop open the OS X Finder view of the directory you are in.
 
-## `open . -a "Atom"` or `open my_file.py -a "Atom"` - Opening Folders and Files in Atom Text Editor
+## Opening Folders and Files in Atom Text Editor
+
+`open . -a "Atom"` or `open my_file.py -a "Atom"`
 
 If you want to open an entire directory in Atom, try `open . -a "Atom"`. The `-` sign is a flag, a way to include an option. In this case the `-a` flag is used to optionally specify which **a**pplication to open the directory or file in.
 
