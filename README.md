@@ -1,15 +1,21 @@
 
 # Using the Command Line
 
+## Overview
+In order to access files and folders on our computer, you can either use a graphical display, called a GUI or a text-based tool called a command-line-interface. Instead of pointing and clicking with the GUI, developers can directly contol the computer through typing - which is faster and allows for more automation. In this lesson you will learn the basics commands used in the Terminal.
+
+##Objectives
+* Key Terms
+* Working Directories
+* Listing Files and Folders
+* Opening Files 
+
+
 ##Key Terms
 * `Terminal` : A text-based tool that allows you to communicate with your computer. The user types a line of text into a simple prompt, and the computer runs that command. On OS X your terminal is an application appropriately called Terminal.
 * `Graphical User Interface` : A graphical display that allows you to communicate with your computer through icons and other visual elements like pointers, folders
 
-## Video
 
-Watch the video below if you are unfamiliar with the command line. It will walk you through the basic commands that you will use day to day as you learn to code.
-
-<iframe width="640" height="480" src="//www.youtube.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Terminal Overview
 
@@ -19,9 +25,15 @@ When you open an application from your Finder or Desktop, it always happens from
 
 We're used to navigating and operating on these files using our GUI, our Graphical User Interface, provided by OS X. Our Terminal provides us with a Command Line Interface to navigate and operate on the files and folders of our computer, just like the GUI. As programmers, the Terminal is our workbench, not the GUI.
 
-Let's learn to navigate our computer using the Terminal Command Line Interface.
+Let's learn to navigate our computer using the Terminal Command Line Interface. You can choose to watch the video in the next section, read about the commands or do both. Just make sure you are practicing along with the instructions so that you start internalizing some of the commands.
 
-## `pwd` and Working Directories
+## Command Line Video
+
+Watch the video below if you are unfamiliar with the command line. It will walk you through the basic commands that you will use day to day as you learn to code.
+
+<iframe width="640" height="480" src="//www.youtube.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
+
+## Working Directories
 
 When you open a Terminal session, you are placed within a directory of your file system. Whatever programs execute or work you do in your Terminal, like when you click on things in your GUI, that action happens in the context of a "Working Directory."
 
