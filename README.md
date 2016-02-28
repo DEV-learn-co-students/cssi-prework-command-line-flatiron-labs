@@ -6,7 +6,9 @@ In order to access files and folders on our computer, you can either use a graph
 
 ##Objectives
 * Key Terms
-* Working Directories
+* Terminal Overview
+* Opening & Docking the Terminal
+* The Command Line Prompt
 * Listing Files and Folders
 * Opening Files 
 
@@ -21,11 +23,9 @@ In order to access files and folders on our computer, you can either use a graph
 
 When you open a file on your computer, you locate it in by navigating through the directories on your computer's file system using Finder. Even files on your Desktop that you click on are stored in your computer's file system, your hard drive.
 
-When you open an application from your Finder or Desktop, it always happens from the context of a "Working Directory" - the directory of your computer you were in when you executed the program. When you click on a file on your Desktop or Open an application from Your Dock or Applications directory, you are still opening a file in a directory. The Dock and Desktop are just abstractions for that directory to make them easy to access.
+We're used to navigating and operating on these files using our GUI, our Graphical User Interface, provided by OS X. But as we work learn to become developers we need a quicker, more flexible way to interact with our computer. Let's learn to navigate our computer using the Terminal Command Line Interface. You can choose to watch the video in the next section, read about the commands or do both. Just make sure you are practicing along with the instructions so that you start internalizing some of the commands.
 
-We're used to navigating and operating on these files using our GUI, our Graphical User Interface, provided by OS X. Our Terminal provides us with a Command Line Interface to navigate and operate on the files and folders of our computer, just like the GUI. As programmers, the Terminal is our workbench, not the GUI.
-
-Let's learn to navigate our computer using the Terminal Command Line Interface. You can choose to watch the video in the next section, read about the commands or do both. Just make sure you are practicing along with the instructions so that you start internalizing some of the commands.
+The easiest way to open a terminal is through Spotlight by using COMMAND + SPACE (if you haven't changed the default shortcut), and typing "terminal". Terminal can also be found in the Applications folder in the Utilites subfolder. To keep Terminal in the Dock, you can right click it's icon in the Dock, hover over Options and select "Keep in Dock".
 
 ## Command Line Video
 
@@ -33,17 +33,11 @@ Watch the video below if you are unfamiliar with the command line. It will walk 
 
 <iframe width="640" height="480" src="//www.youtube.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
-## Working Directories
 
-When you open a Terminal session, you are placed within a directory of your file system. Whatever programs execute or work you do in your Terminal, like when you click on things in your GUI, that action happens in the context of a "Working Directory."
 
-A "Working Directory" just means wherever on your computer's hard drive you are when you execute a program, again, whether through clicking on an icon in your GUI or running a command in your Terminal like `learn hello`. You did that from somewhere. We call that somewhere, wherever you currently are, a "Working Directory".
+## The Command Line Prompt
 
-Open a Terminal and you'll be at your Command Line prompt, where your computer is waiting for instructions.
-
-### What's a Command Line Prompt
-
-Our Command Line prompt, and maybe yours if you configured your environment through Learn, is represented by:
+A Command Line prompt  is represented by:
 
 ```
 [16:19:43] ~
@@ -56,11 +50,17 @@ The next line, `// $` is our command line prompt, where we can type instructions
 
 What can you do from a command line prompt? Everything and anything. A command line prompt is the most powerful interface in the world, from which every computer and piece of software can be created, controlled, molded, manipulated, and used.
 
+### Working Directories
+
+When you open a Terminal session, it is opened from a specific location, directory of your file system. A directory in the command line is like a folder in the GUI.  You can access the files withith your current working directory. You can also access other files and folders in other locations, as long as you know where those files exist relative to your current location, your current working directory.
+
 ### `pwd` - Print Working Directory
 
-Let's run our second Command Line program (our first was when you ran `learn hello`).
+Let's run our first Command Line program, `pwd`, which stands for print working directory. This command is the the "You are Here" marker on a map, it shows us where we are within our file system.
 
-Type `pwd` from your prompt. You should see something like:
+When we type in a command, the computer will respond with output and then give you another prompt line so you can keep directing it with instructions.
+
+Let's take a look at this process.  Type your command,  `pwd` into terminal and then press Enter to execute that command. You should see something like:
 
 ```
 ~ $ pwd
@@ -68,7 +68,7 @@ Type `pwd` from your prompt. You should see something like:
 ~ $
 ```
 
-From my home directory, `~`, my Terminal presented me a prompt, `$`. I typed `pwd` and pressed Enter on my keyboard. My terminal responded with `/Users/avi` and returned me to my home directory, `~` and gave me a new prompt, `$`.
+From the home directory, `~`, the Terminal presented a prompt, `$`. The command `pwd`  was typed and executed by using the Enter key. The terminal responded with your current working directory: `/Users/avi`.Then it's waiting for a new command that we can type after the new prompt `$`.
 
 That's the standard procedure when you execute anything in Terminal, you enter a command from a prompt in a working directory, see output, and are returned to a new prompt in your working directory.
 
