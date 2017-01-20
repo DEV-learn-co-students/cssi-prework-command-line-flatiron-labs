@@ -142,6 +142,12 @@ In the same manner that `..` means the directory above, the shortcut `.` means t
 
 You can also change directory back to your home directory from anywhere via `cd ~`. Remember that `~` is a shortcut that means home so if you type `cd ~` you are telling your terminal to change the working directory to your home directory.
 
+## `mkdir`
+
+To create a new directory (or folder) you'll want to use the `mkdir` command. Type `mkdir directory_name` replacing the directory_name with the name you'd like to call your directory. 
+
+**Do This Now:** We're going to make a new directory called 'development' in our root folder that will hold on to all of our labs. Whenever you clone a repo from github, do it here so we can keep organized. Type `cd ~` to navigate to the root folder, and then `mkdir development` to create the directory. Type `ls` to confirm that it's there!
+
 ## `open ` - Opening Folders and Files
 
 When you're in Terminal, sometimes it is useful to open the current directory you're in, your working directory, in Finder. You can do this with `open .`. That will pop open the OS X Finder view of the directory you are in.
