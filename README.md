@@ -142,11 +142,16 @@ In the same manner that `..` means the directory above, the shortcut `.` means t
 
 You can also change directory back to your home directory from anywhere via `cd ~`. Remember that `~` is a shortcut that means home so if you type `cd ~` you are telling your terminal to change the working directory to your home directory.
 
-## `mkdir`
+## `mkdir` - Make a New Directory
 
 To create a new directory (or folder) you'll want to use the `mkdir` command. Type `mkdir directory_name` replacing the directory_name with the name you'd like to call your directory. 
 
-**Do This Now:** We're going to make a new directory called 'development' in our root folder that will hold on to all of our labs. Whenever you clone a repo from github, do it here so we can keep organized. Type `cd ~` to navigate to the root folder, and then `mkdir development` to create the directory. Type `ls` to confirm that it's there!
+### Do this Now:
+We're going to make a new directory called 'development' in our root folder that will hold on to all of our labs. Whenever you clone a repo from github, do it here so we can keep organized. Type `cd ~` to navigate to the root folder, and then `mkdir development` to create the directory. Type `ls` to confirm that it's there!
+
+## `touch` - Make a New File
+
+To create a new file you'll want to use the `touch` command. Type `touch file_name` replacing the file_name with the name you'd like to call your directory. For example, if I wanted to create a new index.html file, I'd type `touch index.html` 
 
 ## `open ` - Opening Folders and Files
 
